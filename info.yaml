@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     481529303178955777       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "bcd 7 segmentos"      # Project title
+  wokwi_id:     354858054593504257       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "3-in-1 protective circuit"      # Project title
   author:       "Samuel Ceballos"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "BCD CIRCUIT"      # One line description of what your project does
+  description:  "3-in-1 protective circuit"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "1"
-  ui[1]: "1"
-  ui[2]: "1"
-  ui[3]: "1"
+  ui[0]: "I"
+  ui[1]: "I"
+  ui[2]: "I"
+  ui[3]: "I"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "0"
-  uo[1]: "0"
-  uo[2]: "0"
-  uo[3]: "0"
-  uo[4]: "0"
-  uo[5]: "0"
-  uo[6]: "0"
+  uo[0]: "O"
+  uo[1]: "O"
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
   uo[7]: ""
 
   # Bidirectional pins
